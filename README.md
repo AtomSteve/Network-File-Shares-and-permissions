@@ -38,6 +38,7 @@ From our Active directory that we already created and log into it (DC-1).  Do th
 -  read-access domain users read only
 -  write-access domain users read/right
 -  no-access -domain admin read/right
+-  ACCOUNTANT (leave for now)
 
 
 </p>
@@ -58,6 +59,20 @@ On DC-1 in the read folder create a document and save it there. On Client-1 go t
 <br />
 
 ![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/27358940-277e-4be7-83e9-f9211e2fc73f)![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/41a73cf3-21ef-4450-8a93-435be4569ea5)
+
+
+
+</p>
+
+<h2> Create an "ACCOUNTANTS" Security Group, assign permissons, an test access</h2>
+
+In Active Directory in DC-1, under my domain create a Security group.  right click mydomain -> new -> Orginizational Unit -> call it SECURITY GROUP.  In the new Security group Add new group called ACCOUNTANTS and make the type security, after go to ACCOUNTANTS folder and go to properties and Add ACCOUNTANTS Security group and set it to read and write.   No one can access the ACCOUNTANTS folder, so go back to Security groups in Active directory go to members and Add as many people to the group as you need.  Once one of your user has access to the ACCOUNTANTS, have them sighn into Client-1.  You should be able to access the ACCOUNTANTS folder now.  Now you can share and restrict data from users 
+
+</p>
+<br />
+
+![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/cefd9511-bb1f-4e0f-80ec-8b6799b71e0e)![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/00336bf8-ea64-4dea-a947-25231c3a06ea)![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/3d048d00-7e51-440b-8b0a-d9f20250b0da)![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/30c50197-32fc-41d8-b43f-21c78a020af5)![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/b7aef976-83a9-4dc1-b329-fe0914a5aaa7)
+
 
 
 
