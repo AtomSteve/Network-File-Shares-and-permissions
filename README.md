@@ -1,6 +1,9 @@
 <p align="center">
-<img src="![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/b0e71a23-ed66-42ec-a538-3676d8f5a535)
-" width="200" height="400" />
+<img src="https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/a7962980-6bb1-4ec9-8954-bb6b989f1df5" width="200" height="400" />
+
+
+
+
 
 </p>
 
