@@ -25,15 +25,34 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
+<h2>Configuration Objectives</h2>
 
-- Configure Roles
-- Configure Departments
-- Configure Teams
-- Allow Ticket Creation
-- Configure Teams/Workers
-- configure Users
-- Configure SLA
-- Configure Help Topics
-  
-<h2>Configuration Steps</h2>
+-  Create sample files and share with various permissons
+-  Attempt to access file shares as a normal user
+-  Create an "ACCOUNTANTS" Security Group, assign permissons, an test access
+
+
+<h2>Creating sample files and share with various permissons</h2>
+
+From our Active directory that we already created and log into it (DC-1).  Do the same with Client-2.  On DC-1 go to the C:\ drive and create the following folders
+-  read-access
+-  write-access
+-  no-access
+
+
+</p>
+<br />
+
+![image](https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/fee525c7-0e78-4863-99ca-48b4d470d946)
+
+
+</p>
+
+<h2>Attempt to access file shares as a normal user</h2>
+
+
+
+
+
+
+
