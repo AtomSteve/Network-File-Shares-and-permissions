@@ -1,14 +1,12 @@
 <p align="center">
 <img src="https://github.com/AtomSteve/Network-File-Shares-and-permissions/assets/147112183/a7962980-6bb1-4ec9-8954-bb6b989f1df5" width="400" height="350" />
 
-
+<h2>Network-File-Share-and-permissons</h2>
 
 
 
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
 
